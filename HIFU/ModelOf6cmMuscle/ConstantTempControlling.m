@@ -20,10 +20,10 @@ for i = (min+1):(300+min)      %9:188/13:192/
 
     end
     if((deltaT < 0.1) && (deltaT >= 0.01))
-        k = -7.4e5;  %-8.5e5大
+        k = -7.4e5;  %-8.5e5麓贸
     end
     if(deltaT >= 0.1)
-        k = -1e5; %-6e5大
+        k = -1e5; %-6e5麓贸
     end
     
     Q_new = k*(T_last1 - T_last2) + Q_last;
@@ -67,4 +67,3 @@ ylabel('Temperature [^\circC]');
 % xlabel('Time [min]');
 % ylabel('Temperature [^\circC]');
 % title('False-T');
-
